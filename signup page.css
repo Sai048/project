@@ -1,0 +1,48 @@
+body{
+    background-color: bisque;
+}
+#main{
+   border: 2px solid ;
+   width: 35%;
+   height:65%;
+   margin: 30%;
+   position: fixed;
+   margin-top: 10%;
+   display: flex;
+   justify-content: center;
+   background-color: rgb(147, 163, 163);
+}
+#signup,#back{
+    cursor: pointer;
+    border-radius: 20px;
+    border: 3px double aqua;
+    background-color: aqua;
+    font-size: 20px;
+    font-weight: bold;
+    display: flexbox;
+    justify-content: center;
+    
+}
+#back{
+    margin-left: 30px;
+}
+.a{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+   
+    
+}
+input{
+    border-radius: 25px;
+    padding: 9px;
+    margin-left: 5px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+#signup:hover,#signup:active,#back:hover,#signup:active{
+    border: 3px solid aqua;
+}
+input:hover,input:active{
+    border: 3px solid black;
+}

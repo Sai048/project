@@ -1,0 +1,116 @@
+#contactus{
+    display: block;
+    width: 100%;
+}
+
+
+
+
+
+
+
+#welcoming{
+    border: 2px solid aqua;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    border: 2px solid;
+    font-weight: bold;
+
+}
+a:hover{
+    background-color: green;
+    color: black;
+
+}
+a{
+    border: 2px solid #404040;
+    background-color:black;
+    color: white;
+    padding: 2px;
+    text-decoration: none;
+}
+:root{
+    --success:#23cc71;
+    --error:#e74c3c;
+}
+body{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+*{
+    box-sizing: border-box;
+}
+#main{
+ 
+ border: 1px solid azure;
+ background-color: azure;
+ width: 40vh;
+ height: 70vh;
+ margin: auto;
+ margin-top: 10%;
+
+ font-weight: bold;
+ border-radius: 20px;
+ box-shadow: 1px 1px 5px 5px #000000;
+
+}
+
+form{
+    padding: 40px 10px;
+}
+.form-control{
+    margin-bottom: 10px;
+    padding-bottom: 40px;
+    position: relative;
+
+}
+.form-control input{
+    font-size: 15px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 100%;
+
+}
+.form-control input:focus{
+    outline: 0;
+    border-color: gray;
+
+}
+.form-control.success input{
+    border-color: var(--success);
+}
+.form-control.error input{
+    border-color: var(--error);
+}
+.form-control small{
+    color: var(--error);
+    position: absolute;
+    left: 0;
+    visibility: hidden;
+}
+.form-control.error small{
+    visibility: visible;
+}
+form button{
+    cursor: pointer;
+    background-color: #23cc71;
+    font-size: 25px;
+    padding: 10px;
+    width: 100%;
+    border-color:#23cc71 ;
+    border-radius: 10px;
+    border-collapse: collapse;
+
+}

@@ -1,0 +1,33 @@
+body{
+    background-color:gray;
+}
+.main,.webdevelopment
+    ,.appdevelopment{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+table {
+   border: 2px solid;
+   border-collapse: collapse;
+   cursor: pointer;
+ 
+}
+th{
+    background-color: aqua;
+}
+
+img{
+    width: 800px;
+    height: 500px;
+    
+}
+.appdevelopment{
+    margin-left:  50px;
+   
+}
+.cloudcomputing{
+    margin-left:  50px;
+}

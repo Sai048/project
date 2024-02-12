@@ -1,0 +1,56 @@
+#welcoming{
+    border: 2px solid aqua;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    border: 2px solid;
+    font-weight: bold;
+
+}
+a:hover{
+    background-color: green;
+    color: black;
+
+}
+a{
+    border: 2px solid #404040;
+    background-color:black;
+    color: white;
+    padding: 2px;
+    text-decoration: none;
+}
+table,th,tr{
+    
+    border: 2px solid ;
+    border-collapse: collapse;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 28px;
+    width: 60%;
+    margin-left:20%;
+}
+table a{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+table a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  
+}
+.img1{
+    margin-top: 8px;
+    margin-left: 25%;
+}
+footer{
+    text-align: center;
+    border: 1px solid aqua;
+    background-color: aqua;
+}
